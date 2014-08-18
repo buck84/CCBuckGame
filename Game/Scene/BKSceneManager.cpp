@@ -12,11 +12,11 @@ CBKSceneManager::CBKSceneManager()
 
 CBKSceneManager::~CBKSceneManager()
 {
-   	for(SceneVector::iterator it = m_vecScenes.begin(); it!=m_vecScenes.end(); ++it)
+ /*  	for(SceneVector::iterator it = m_vecScenes.begin(); it!=m_vecScenes.end(); ++it)
 	{
 		(*it)->release();
 	}
-	m_vecScenes.clear();   
+*/	m_vecScenes.clear();   
 }
 
 bool CBKSceneManager::init()

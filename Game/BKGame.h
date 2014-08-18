@@ -37,7 +37,7 @@ public:
 	static CBKGame* getInstance();
     
 protected:
-	void enterLayer(int layer);
+	//void enterLayer(int layer);
     
 
 protected:

@@ -10,11 +10,11 @@ CBKUIManager::CBKUIManager()
 
 CBKUIManager::~CBKUIManager()
 {
-	for(WidgetVector::iterator it = m_vecUIs.begin(); it!=m_vecUIs.end(); ++it)
+/*	for(WidgetVector::iterator it = m_vecUIs.begin(); it!=m_vecUIs.end(); ++it)
 	{
 		(*it)->release();
 	}
-	m_vecUIs.clear();   
+*/	m_vecUIs.clear();   
 }
 
 bool CBKUIManager::init(cocos2d::Node *parent)

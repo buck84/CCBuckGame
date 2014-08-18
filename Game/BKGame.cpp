@@ -46,7 +46,7 @@ bool CBKGame::run()
 
 	return true;
 }
-
+/*
 void CBKGame::enterLayer(int layer)
 {
 	switch(layer)
@@ -60,4 +60,4 @@ void CBKGame::enterLayer(int layer)
 	auto scene = cocos2d::Scene::create();
 	scene->addChild(m_pLayerRunning);
 	cocos2d::Director::getInstance()->replaceScene(scene);
-}
+}*/

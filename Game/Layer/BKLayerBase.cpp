@@ -28,13 +28,13 @@ CBKLayerBase::CBKLayerBase()
 
 CBKLayerBase::~CBKLayerBase()
 {
-	//delete m_pSceneManager;
-	//delete m_pUIManager;
+	delete m_pSceneManager;
+	delete m_pUIManager;
    
 }
 bool CBKLayerBase::init()
 {
-/*	m_pSceneManager = new CBKSceneManager();
+	m_pSceneManager = new CBKSceneManager();
 	if(!m_pSceneManager->init())
 	{
 		CCLOG("CBKLayerBase::init() m_pSceneManager init error\n");
@@ -47,6 +47,6 @@ bool CBKLayerBase::init()
 		CCLOG("CBKLayerBase::init() m_pUIManager init error\n");
 		return false;
 	}
-	*/
+	
 	return true;
 }
